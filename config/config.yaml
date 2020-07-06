@@ -1,0 +1,17 @@
+application:
+  timeout:
+    read: 1000
+    write: 1000
+  port: 8080
+  mode: "release"
+  log:
+    level: "debug"
+    format: "text"
+  appId: "app"
+  appToken: "app12345"
+  apiBaseRoute: "/api"
+i18n:
+  defaultLanguage: "zh-Hant"
+  file:
+    path: "./i18n"
+    type: "yaml"

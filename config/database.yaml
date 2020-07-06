@@ -1,0 +1,13 @@
+database:
+  url: '10.40.41.128'
+  port: 3306
+  name: 'ops_v1'
+  username: 'root'
+  password: 'a12345'
+  type: 'mysql'
+  tablePrefix: ""
+  maxOpenConns: 1000
+  maxIdleConns: 1000
+  maxLifeTime: 5
+  logMode: true
+  version: "0.0.2"
